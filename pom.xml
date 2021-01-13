@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.rosecky</groupId>
+    <artifactId>shacl2plantuml</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>SHACL2PlantUML</name>
+
+    <properties>
+        <kotlin.version>1.4.20</kotlin.version>
+        <spring-boot.version>2.4.0</spring-boot.version>
+        <commons-codec.version>1.15</commons-codec.version>
+    </properties>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.0</version>
+        <relativePath /> <!-- lookup parent from repository -->
+    </parent>
+
+    <modules>
+        <module>shacl2plantuml-lib</module>
+        <module>shacl2plantuml-cmd</module>
+    </modules>
+</project>

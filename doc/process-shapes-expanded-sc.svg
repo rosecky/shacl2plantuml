@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="619px" preserveAspectRatio="none" style="width:2345px;height:619px;" version="1.1" viewBox="0 0 2345 619" width="2345px" zoomAndPan="magnify"><defs/><g><!--MD5=[4785159c0b6ffb05c8989e434db38183]
+class 190495585--><rect codeLine="9" fill="#FEFECE" height="26.3516" id="190495585" style="stroke:#000000;stroke-width:1.5;" width="52" x="1270" y="7"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="46" x="1273" y="25.4951">material</text><!--MD5=[4ecaab282b069df8db6f950a373aa395]
+class 190501353--><rect codeLine="11" fill="#FEFECE" height="26.3516" id="190501353" style="stroke:#000000;stroke-width:1.5;" width="95" x="1083" y="7"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="89" x="1086" y="25.4951">natural material</text><!--MD5=[ad1a55cd61e05afafed06207ce8b68e5]
+class 190523483--><rect codeLine="13" fill="#FEFECE" height="26.3516" id="190523483" style="stroke:#000000;stroke-width:1.5;" width="45" x="518" y="92"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="39" x="521" y="110.4951">person</text><!--MD5=[9ab07d3494b39e5aa21fe72fe7582558]
+class -746781186--><rect codeLine="15" fill="#EEEEEE" height="26.3516" id="-746781186" style="stroke:#008000;stroke-width:1.5;" width="69" x="257.5" y="201"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="63" x="260.5" y="219.4951">person (...)</text><!--MD5=[875be7c9d6dd0a16bf441694aa5eec95]
+class 190523511--><rect codeLine="17" fill="#FEFECE" height="26.3516" id="190523511" style="stroke:#000000;stroke-width:1.5;" width="122" x="768" y="81"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="116" x="771" y="99.4951">organizational entity</text><!--MD5=[190e492a57859a9c10ad94ef9e0726d0]
+class 1188159182--><rect codeLine="19" fill="#FEFECE" height="26.3516" id="1188159182" style="stroke:#000000;stroke-width:1.5;" width="119" x="7" y="358"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="113" x="10" y="376.4951">information process</text><!--MD5=[fd7288cd23a5b0ad9d7fe4925b81ab2a]
+class 1188247841--><rect codeLine="21" fill="#FEFECE" height="26.3516" id="1188247841" style="stroke:#000000;stroke-width:1.5;" width="27" x="527" y="490"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="21" x="530" y="508.4951">end</text><!--MD5=[d13ab243e90cbd2a2065bf42ac8d6fff]
+class 1188248618--><rect codeLine="23" fill="#FEFECE" height="26.3516" id="1188248618" style="stroke:#000000;stroke-width:1.5;" width="32" x="524.5" y="556"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="26" x="527.5" y="574.4951">start</text><!--MD5=[f825c27de64d3efb6e28899ca30d5918]
+class 1482881895--><rect codeLine="25" fill="#FEFECE" height="26.3516" id="1482881895" style="stroke:#000000;stroke-width:1.5;" width="78" x="916.5" y="459"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="72" x="919.5" y="477.4951">specification</text><!--MD5=[6d668e5b43ee0b8ed859f9564d7a4911]
+class 1482882013--><rect codeLine="27" fill="#FEFECE" height="26.3516" id="1482882013" style="stroke:#000000;stroke-width:1.5;" width="69" x="1096" y="487"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="63" x="1099" y="505.4951">proposition</text><!--MD5=[a821a402f06ba48a85366bb3a5e6fe96]
+class 1482907681--><rect codeLine="29" fill="#FEFECE" height="26.3516" id="1482907681" style="stroke:#000000;stroke-width:1.5;" width="106" x="640.5" y="459"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="100" x="643.5" y="477.4951">plan specification</text><!--MD5=[4b688747bad649146d75a545a7943d1a]
+class -843567553--><rect codeLine="31" fill="#FEFECE" height="26.3516" id="-843567553" style="stroke:#000000;stroke-width:1.5;" width="94" x="646.5" y="393"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="88" x="649.5" y="411.4951">processing role</text><!--MD5=[ec3e5a009471f3c044359f927832bd60]
+class -843567375--><rect codeLine="33" fill="#FEFECE" height="26.3516" id="-843567375" style="stroke:#000000;stroke-width:1.5;" width="73" x="1094" y="323"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="67" x="1097" y="341.4951">general role</text><!--MD5=[4259cd000ef84b3e0c69b81c382281b6]
+class -843567371--><rect codeLine="35" fill="#FEFECE" height="26.3516" id="-843567371" style="stroke:#000000;stroke-width:1.5;" width="63" x="509" y="264"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="57" x="512" y="282.4951">agent role</text><!--MD5=[8a85a78b456630e0099dc4e117462e94]
+class -843566502--><rect codeLine="37" fill="#FEFECE" height="26.3516" id="-843566502" style="stroke:#000000;stroke-width:1.5;" width="91" x="910" y="393"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="85" x="913" y="411.4951">contextual role</text><!--MD5=[22000c05b224254186c3627cab1d5bbe]
+class -843563681--><rect codeLine="39" fill="#FEFECE" height="26.3516" id="-843563681" style="stroke:#000000;stroke-width:1.5;" width="115" x="483" y="350"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="109" x="486" y="368.4951">software agent role</text><!--MD5=[5e92c2baf75fda35aad6f268a4ca7df9]
+class -843563679--><rect codeLine="41" fill="#FEFECE" height="26.3516" id="-843563679" style="stroke:#000000;stroke-width:1.5;" width="109" x="639" y="319"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="103" x="642" y="337.4951">general agent role</text><!--MD5=[1f6a4ab55fc53dccd71972b0cb4ae41e]
+class -978028019--><rect codeLine="43" fill="#FEFECE" height="26.3516" id="-978028019" style="stroke:#000000;stroke-width:1.5;" width="38" x="2222" y="538"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="32" x="2225" y="556.4951">entity</text><!--MD5=[26372dfb4e652ed8b90352b96945d22a]
+class -978028018--><rect codeLine="45" fill="#FEFECE" height="26.3516" id="-978028018" style="stroke:#000000;stroke-width:1.5;" width="66" x="2115" y="327"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="2118" y="345.4951">continuant</text><!--MD5=[ac08bae09c66374e137768b448b9d1d6]
+class -978028017--><rect codeLine="47" fill="#FEFECE" height="26.3516" id="-978028017" style="stroke:#000000;stroke-width:1.5;" width="60" x="925.5" y="561"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="54" x="928.5" y="579.4951">occurrent</text><!--MD5=[83b0ebdab79f0d33a7873be784fd62b8]
+class -978028016--><rect codeLine="49" fill="#FEFECE" height="26.3516" id="-978028016" style="stroke:#000000;stroke-width:1.5;" width="140" x="1934" y="126"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="134" x="1937" y="144.4951">independent continuant</text><!--MD5=[23f7c4244fa1b58e3b16dd5fd6fc5439]
+class -978027984--><rect codeLine="51" fill="#FEFECE" height="26.3516" id="-978027984" style="stroke:#000000;stroke-width:1.5;" width="52" x="266" y="522"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="46" x="269" y="540.4951">process</text><!--MD5=[1867b848ea69bdd0ff045ddf9e36aef4]
+class -978027982--><rect codeLine="53" fill="#FEFECE" height="26.3516" id="-978027982" style="stroke:#000000;stroke-width:1.5;" width="97" x="1082" y="241"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="91" x="1085" y="259.4951">realizable entity</text><!--MD5=[f42f21f4c798fe7f8a7b0cf375c8b4e4]
+class -978027958--><rect codeLine="55" fill="#FEFECE" height="26.3516" id="-978027958" style="stroke:#000000;stroke-width:1.5;" width="198" x="1392" y="245"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="192" x="1395" y="263.4951">specifically dependent continuant</text><!--MD5=[34831ec34fa087a66900de927c46f413]
+class -978027955--><rect codeLine="57" fill="#FEFECE" height="26.3516" id="-978027955" style="stroke:#000000;stroke-width:1.5;" width="27" x="942" y="245"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="21" x="945" y="263.4951">role</text><!--MD5=[5c45c5fb590c3ff7399b66a581238752]
+class -978027927--><rect codeLine="59" fill="#FEFECE" height="26.3516" id="-978027927" style="stroke:#000000;stroke-width:1.5;" width="41" x="1021" y="163"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="35" x="1024" y="181.4951">object</text><!--MD5=[afdf042e7201cd01015fdd2b3de08965]
+class -978027926--><rect codeLine="61" fill="#FEFECE" height="26.3516" id="-978027926" style="stroke:#000000;stroke-width:1.5;" width="196" x="1718" y="412"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="190" x="1721" y="430.4951">generically dependent continuant</text><!--MD5=[e442664e165b0d21f7dfd68edbc53921]
+class -978027922--><rect codeLine="63" fill="#FEFECE" height="26.3516" id="-978027922" style="stroke:#000000;stroke-width:1.5;" width="109" x="639" y="556"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="103" x="642" y="574.4951">process boundary</text><!--MD5=[ea4a67cee44b3bfd50a08f0db84fe378]
+class -978027896--><rect codeLine="65" fill="#FEFECE" height="26.3516" id="-978027896" style="stroke:#000000;stroke-width:1.5;" width="88" x="1610" y="92"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="82" x="1613" y="110.4951">material entity</text><!--MD5=[188b2b15548eb910547dec08dc1fd469]
+class 310781911--><rect codeLine="67" fill="#FEFECE" height="26.3516" id="310781911" style="stroke:#000000;stroke-width:1.5;" width="54" x="513.5" y="424"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="48" x="516.5" y="442.4951">software</text><!--MD5=[93eb9938dd74b023bd3912b3f19e6680]
+class 625766257--><rect codeLine="69" fill="#EEEEEE" height="26.3516" id="625766257" style="stroke:#008000;stroke-width:1.5;" width="78" x="253" y="358"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="72" x="256" y="376.4951">software (...)</text><!--MD5=[bf507d21c79fd45cba146cbcf4fac949]
+class 310781973--><rect codeLine="71" fill="#FEFECE" height="26.3516" id="310781973" style="stroke:#000000;stroke-width:1.5;" width="152" x="1220" y="413"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="146" x="1223" y="431.4951">information content entity</text><!--MD5=[ee789b761ec6eac37b8c0250b78e4930]
+class 608723588--><rect codeLine="73" fill="#FEFECE" height="26.3516" id="608723588" style="stroke:#000000;stroke-width:1.5;" width="45" x="671" y="7"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="39" x="674" y="25.4951">human</text><!--MD5=[325c2bdc8bc93883b1f64fae35cfd660]
+class 205916218--><rect codeLine="75" fill="#FEFECE" height="26.3516" id="205916218" style="stroke:#000000;stroke-width:1.5;" width="59" x="926" y="7"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="53" x="929" y="25.4951">organism</text><!--MD5=[682932de9013c31166eb599679316f20]
+class 2135914818--><rect codeLine="77" fill="#FEFECE" height="26.3516" id="2135914818" style="stroke:#000000;stroke-width:1.5;" width="37" x="2301" y="538"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="31" x="2304" y="556.4951">Thing</text><!--MD5=[d3875f0f931d1fd653a381faee10e5cd]
+link 190495585 to -978027896--><path codeLine="79" d="M1322.24,20.03 C1374.16,20.86 1495.94,26.86 1590,63 C1600.77,67.14 1611.56,73.38 1621.08,79.79 " fill="none" id="190495585-to--978027896" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="1625.52,74.36,1637.52,91.82,1617.25,85.65,1625.52,74.36" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[2177e1027007c7255c29546f4f891652]
+link 190501353 to 190495585--><path codeLine="80" d="M1178.35,20 C1200.83,20 1227.65,20 1249.9,20 " fill="none" id="190501353-to-190495585" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="1249.91,13,1269.91,20,1249.91,27,1249.91,13" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[5e5604954b9e33e423eb847ff950fe0f]
+link 190523483 to 190523511--><path codeLine="81" d="M563.03,104.18 C601.76,102.69 684.98,99.5 747.89,97.08 " fill="none" id="190523483-to-190523511" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="747.68,90.08,767.93,96.31,748.21,104.07,747.68,90.08" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[cf69621c8b874532de3592fceb6b8385]
+link 190523483 to -978027927--><path codeLine="82" d="M563.26,108.1 C640.26,119.06 900.56,156.09 1000.74,170.35 " fill="none" id="190523483-to--978027927" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="1002.01,163.46,1020.83,173.21,1000.04,177.32,1002.01,163.46" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[3b06f7f967e2d308e1c99bf3f8aa651b]
+link 190523483 to 608723588--><path codeLine="83" d="M563.13,92.83 C586.57,79.63 624.45,58.31 653.18,42.14 " fill="none" id="190523483-to-608723588" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="650.04,35.87,670.91,32.16,656.91,48.07,650.04,35.87" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[1a6690dc8bc463c090ec67595297e612]
+link -746781186 to 190523483--><path codeLine="84" d="M316.16,200.95 C326.67,195.21 339.34,188.52 351,183 C401.1,159.32 460.37,135.45 498.88,120.47 " fill="none" id="-746781186-to-190523483" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="496.53,113.88,517.71,113.21,501.57,126.94,496.53,113.88" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[6cce04efdf25e4dd7d8f25d30678b7b0]
+link 190523511 to -978027896--><path codeLine="85" d="M890.34,94 C932.42,94 989.88,94 1040.5,94 C1040.5,94 1040.5,94 1297,94 C1399.63,94 1518.82,98.63 1589.96,101.88 " fill="none" id="190523511-to--978027896" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="1590.34,94.89,1610,102.82,1589.69,108.88,1590.34,94.89" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[884798ec1794cd7b8c9ad672bdd6cc8c]
+link 1188159182 to -978027984--><path codeLine="86" d="M85.41,384.15 C122.6,411.44 208.72,474.63 256.87,509.96 " fill="none" id="1188159182-to--978027984" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="261.02,504.32,273,521.8,252.74,515.61,261.02,504.32" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[4263b7e8a98827b041bb585c4757c16e]
+link 1188247841 to -978027922--><path codeLine="87" d="M554.11,508.52 C573.72,517.09 612.53,534.05 644.07,547.84 " fill="none" id="1188247841-to--978027922" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="647.01,541.48,662.54,555.91,641.41,554.31,647.01,541.48" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[78a0a28f75186dbd1155b3db4c96b534]
+link 1188248618 to -978027922--><path codeLine="88" d="M556.53,569 C571.38,569 595.22,569 618.83,569 " fill="none" id="1188248618-to--978027922" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="618.84,562,638.84,569,618.84,576,618.84,562" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[105185b7e57da618ccd73223e5a02c26]
+link 1482881895 to 1482882013--><path codeLine="89" d="M994.89,478.22 C1018.77,482.08 1049.82,487.11 1076.08,491.36 " fill="none" id="1482881895-to-1482882013" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="1077.26,484.46,1095.89,494.56,1075.03,498.28,1077.26,484.46" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[05295ba7b4db09245aed4ed798995cdc]
+link 1482882013 to 310781973--><path codeLine="90" d="M1160.35,486.95 C1184.56,475.99 1219.61,460.12 1247.89,447.33 " fill="none" id="1482882013-to-310781973" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="1245.05,440.93,1266.16,439.06,1250.83,453.68,1245.05,440.93" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[9d2f74999c337453c482465ea7d43e9e]
+link 1482907681 to 1482881895--><path codeLine="91" d="M746.8,472 C789.97,472 851.2,472 895.99,472 " fill="none" id="1482907681-to-1482881895" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="896.21,465,916.21,472,896.21,479,896.21,465" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[47aa741b2ad0cb29896aa3f53d9a6239]
+link -843567553 to -843566502--><path codeLine="92" d="M740.68,406 C782.06,406 843.19,406 889.51,406 " fill="none" id="-843567553-to--843566502" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="889.62,399,909.62,406,889.62,413,889.62,399" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[d926319afa3940e9e33b44d5c0df5ea9]
+link -843567375 to -978028018--><path codeLine="93" d="M1167.22,337.38 C1200.34,338.54 1250.99,340 1295,340 C1295,340 1295,340 2005,340 C2034.62,340 2067.7,340 2094.49,340 " fill="none" id="-843567375-to--978028018" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="2094.85,333,2114.85,340,2094.85,347,2094.85,333" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[ac72724b2d85a5cbdcb26040609db42d]
+link -843567371 to -843563679--><path codeLine="94" d="M572.06,288.14 C590.89,295 615.59,303.99 637.72,312.05 " fill="none" id="-843567371-to--843563679" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="640.28,305.54,656.68,318.96,635.49,318.69,640.28,305.54" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[be3661375e3d9805d84d5bb1a3546c7a]
+link -843567371 to -978027955--><path codeLine="95" d="M572.2,275.59 C648.1,272.1 844.02,263.09 921.89,259.51 " fill="none" id="-843567371-to--978027955" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="921.7,252.51,942,258.58,922.34,266.49,921.7,252.51" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[b2db1fc56a97a53d9d0e04b607792805]
+link -843566502 to -843567375--><path codeLine="96" d="M988.63,393 C1013.8,382.82 1049.3,368.46 1078.36,356.7 " fill="none" id="-843566502-to--843567375" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="1076.08,350.07,1097.24,349.06,1081.33,363.05,1076.08,350.07" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[5f45023b175388ace4916d3973625796]
+link -843566502 to 310781973--><path codeLine="97" d="M1001.1,408.64 C1051.43,411.61 1134.75,416.54 1199.85,420.38 " fill="none" id="-843566502-to-310781973" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="1200.29,413.4,1219.84,421.56,1199.47,427.37,1200.29,413.4" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[5bdfeeee478269ee117b1d32f2453ce1]
+link -843563681 to -843567553--><path codeLine="98" d="M587.21,376.02 C599.87,379.63 613.86,383.61 627.39,387.46 " fill="none" id="-843563681-to--843567553" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="629.36,380.75,646.68,392.96,625.53,394.21,629.36,380.75" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[68bdf6b1967cf73e428f51e99aa3c9ec]
+link -843563681 to -843563679--><path codeLine="99" d="M598.16,351.37 C604.87,350 611.8,348.57 618.71,347.15 " fill="none" id="-843563681-to--843563679" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="617.53,340.25,638.53,343.09,620.34,353.96,617.53,340.25" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[169beab26a9f4a7c5dea92ef7650ed00]
+link -843563679 to -843567375--><path codeLine="100" d="M748.28,332.5 C831.19,333.26 989.44,334.72 1073.61,335.49 " fill="none" id="-843563679-to--843567375" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="1073.88,328.49,1093.81,335.68,1073.75,342.49,1073.88,328.49" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[bd5d7781d4d9b67bbc15330063c4c5e3]
+link -978028019 to 2135914818--><path codeLine="101" d="M2260.13,551 C2266.27,551 2273.38,551 2280.48,551 " fill="none" id="-978028019-to-2135914818" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="2280.76,544,2300.76,551,2280.76,558,2280.76,544" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[86ce3806da1d0971ca6e9bf56c82e3cc]
+link -978028018 to -978028019--><path codeLine="102" d="M2154.69,353.2 C2168.86,386.06 2206.04,472.27 2226.32,519.29 " fill="none" id="-978028018-to--978028019" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="2232.82,516.67,2234.31,537.81,2219.96,522.22,2232.82,516.67" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[5c32f54c2be143821bbd83a08c9c1e8f]
+link -978028017 to -978028019--><path codeLine="103" d="M985.58,574 C1019.96,574 1078.89,574 1129.5,574 C1129.5,574 1129.5,574 2149,574 C2167.02,574 2186.44,569.72 2202.7,564.84 " fill="none" id="-978028017-to--978028019" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="2200.68,558.14,2221.87,558.41,2205.13,571.41,2200.68,558.14" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[d39740609d472a393238323d3425ffae]
+link -978028016 to -978028018--><path codeLine="104" d="M2021.75,152.13 C2041.32,168.14 2073.72,196.82 2095,227 C2112.72,252.15 2126.82,284.3 2135.84,307.87 " fill="none" id="-978028016-to--978028018" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="2142.54,305.81,2142.77,327,2129.38,310.58,2142.54,305.81" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[5c81e9852c41d852476da6670f0fa8d3]
+link -978027984 to -978028017--><path codeLine="105" d="M306.55,548.31 C317.6,558.36 334.08,571.64 351,579 C405.6,602.78 423.67,596.87 483,602 C600.34,612.15 630.48,609.83 748,602 C811.53,597.77 826.91,591.63 890,583 C894.96,582.33 900.13,581.62 905.29,580.9 " fill="none" id="-978027984-to--978028017" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="904.51,573.94,925.29,578.12,906.44,587.81,904.51,573.94" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[ebfb41dafc8db9b4d2fdbb7965c113f7]
+link -978027982 to -978027958--><path codeLine="106" d="M1179.11,254.54 C1227.94,255.08 1305.81,255.95 1371.41,256.68 " fill="none" id="-978027982-to--978027958" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="1371.85,249.69,1391.77,256.91,1371.69,263.69,1371.85,249.69" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[5dc2d87b512b72713bfe24a467cb179b]
+link -978027958 to -978028018--><path codeLine="107" d="M1590.19,252.97 C1711.75,249.73 1923.71,253.95 2095,309 C2100.91,310.91 2106.87,313.58 2112.53,316.57 " fill="none" id="-978027958-to--978028018" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="2116.2,310.61,2129.68,326.96,2108.94,322.58,2116.2,310.61" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[768d86887198b67bb18577da69267697]
+link -978027955 to -843567375--><path codeLine="108" d="M969.22,263.74 C992.66,274.31 1043.78,297.36 1082.03,314.6 " fill="none" id="-978027955-to--843567375" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="1085.02,308.27,1100.37,322.87,1079.26,321.03,1085.02,308.27" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[3c01278623faa1d5d8bce1397da693ee]
+link -978027955 to -978027982--><path codeLine="109" d="M969.22,257.71 C988.7,257.26 1027.28,256.37 1061.71,255.57 " fill="none" id="-978027955-to--978027982" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="1061.7,248.57,1081.86,255.11,1062.03,262.57,1061.7,248.57" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[e8a9cfcdd64a294adcc9efb667fe059e]
+link -978027927 to -978027896--><path codeLine="110" d="M1062.12,175.69 C1133.59,174.23 1386.51,166.28 1590,125 C1592.3,124.54 1594.64,124.02 1596.98,123.46 " fill="none" id="-978027927-to--978027896" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="1595.23,116.68,1616.37,118.09,1598.96,130.17,1595.23,116.68" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[97d24f747142a44fcb17d8922afa45bd]
+link -978027926 to -978028018--><path codeLine="111" d="M1914.16,414.51 C1968.61,406.58 2037.01,393.15 2095,371 C2100.43,368.93 2105.94,366.31 2111.25,363.47 " fill="none" id="-978027926-to--978028018" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="2107.78,357.38,2128.54,353.15,2114.95,369.41,2107.78,357.38" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[26b25ce5be3d2b60b224af7bcbf1f466]
+link -978027922 to -978028017--><path codeLine="112" d="M748.06,570.03 C794.17,570.92 860.2,572.19 905.07,573.05 " fill="none" id="-978027922-to--978028017" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="905.36,566.06,925.23,573.44,905.09,580.06,905.36,566.06" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[7bb80bac2f8e4ca7982add236a48d5ee]
+link -978027896 to -978028016--><path codeLine="113" d="M1698.02,109.21 C1751.61,114.44 1844.56,123.52 1913.79,130.29 " fill="none" id="-978027896-to--978028016" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="1914.77,123.35,1934,132.26,1913.41,137.29,1914.77,123.35" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[1b777daac7e7bd3dcc664d417b827c21]
+link 310781911 to 1482907681--><path codeLine="114" d="M567.8,443.1 C582.52,446.51 601.67,450.95 620.52,455.32 " fill="none" id="310781911-to-1482907681" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="622.34,448.56,640.24,459.89,619.18,462.2,622.34,448.56" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[e8427577eaf6b6f787b8e04e88584afe]
+link 625766257 to 310781911--><path codeLine="115" d="M331.29,383.19 C337.85,385.19 344.61,387.2 351,389 C399.56,402.71 455.65,416.77 493.94,426.1 " fill="none" id="625766257-to-310781911" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="495.68,419.32,513.47,430.83,492.38,432.93,495.68,419.32" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[498ce376389563c17142b0529a597b75]
+link 310781973 to -978027926--><path codeLine="116" d="M1372.04,425.86 C1457.43,425.7 1597.94,425.42 1697.8,425.23 " fill="none" id="310781973-to--978027926" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="1697.81,418.23,1717.83,425.19,1697.84,432.23,1697.81,418.23" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[35647b18a0cbd995ce6fd8a17b21738c]
+link 608723588 to 205916218--><path codeLine="117" d="M716.22,20 C757.58,20 848.57,20 905.37,20 " fill="none" id="608723588-to-205916218" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="905.65,13,925.65,20,905.65,27,905.65,13" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[8fa7ffe725b6d23354fdbf8afd3fe1c4]
+link 205916218 to 190501353--><path codeLine="118" d="M985.07,20 C1006.15,20 1035.72,20 1062.63,20 " fill="none" id="205916218-to-190501353" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="none" points="1062.95,13,1082.95,20,1062.95,27,1062.95,13" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[02283a5ed5fb73c640586035a7f42a15]
+link -746781186 to -843563681--><path codeLine="119" d="M309.74,227.12 C320.94,235.4 336.26,245.86 351,253 C398.05,275.82 418.71,261.21 463,289 C473.92,295.86 473.85,300.93 483,310 C495.41,322.32 509.79,335.8 520.94,346.08 " fill="none" id="-746781186-to--843563681" style="stroke:#999999;stroke-width:1.0;"/><polygon fill="#999999" points="524.89,349.72,520.9855,340.6782,521.2143,346.3304,515.5621,346.5592,524.89,349.72" style="stroke:#999999;stroke-width:1.0;"/><text fill="#999999" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="110" x="352" y="249.4951">has contextual role</text><text fill="#999999" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="20" x="495.1262" y="339.1021">1..*</text><!--MD5=[6fc229a32bb7c654aea1bb8fb2070e3f]
+link -746781186 to -843567371--><path codeLine="120" d="M326.58,211.4 C361.61,209.82 417.64,210.51 463,226 C484.81,233.46 506.36,248.73 521,260.63 " fill="none" id="-746781186-to--843567371" style="stroke:#999999;stroke-width:1.0;"/><polygon fill="#999999" points="524.94,263.89,520.5641,255.0667,521.0907,260.6989,515.4584,261.2255,524.94,263.89" style="stroke:#999999;stroke-width:1.0;"/><text fill="#999999" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="46" x="384" y="207.4951">has role</text><text fill="#999999" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="20" x="494.8758" y="253.0731">1..*</text><!--MD5=[f855d3136a428d78133b9bdf95ecff62]
+link 1188159182 to -746781186--><path codeLine="121" d="M86.17,357.89 C126.93,329.26 223.75,261.24 268.1,230.09 " fill="none" id="1188159182-to--746781186" style="stroke:#008000;stroke-width:2.0;"/><polygon fill="#008000" points="272.22,227.19,262.5566,229.0924,268.1292,230.065,267.1566,235.6376,272.22,227.19" style="stroke:#008000;stroke-width:2.0;"/><text fill="#008000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="85" x="147" y="253.4951">has participant</text><text fill="#008000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="27" x="232.532" y="248.7638">1 (+)</text><!--MD5=[8a83dc67bd3aaed600fa611dd9560973]
+link 1188159182 to 625766257--><path codeLine="122" d="M126.22,371 C164.16,371 212.7,371 247.26,371 " fill="none" id="1188159182-to-625766257" style="stroke:#008000;stroke-width:2.0;"/><polygon fill="#008000" points="252.68,371,243.68,367,247.68,371,243.68,375,252.68,371" style="stroke:#008000;stroke-width:2.0;"/><text fill="#008000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="85" x="147" y="367.4951">has participant</text><text fill="#008000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="27" x="217.9221" y="385.6701">1 (+)</text><!--MD5=[1e146a9eed965ed69cc82b771da5c0ac]
+link -978027984 to 1188247841--><path codeLine="123" d="M318.45,531.7 C368.47,525.21 478.46,510.93 521.62,505.33 " fill="none" id="-978027984-to-1188247841" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="526.78,504.66,517.3413,501.8472,521.8213,505.3012,518.3673,509.7812,526.78,504.66" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="55" x="379.5" y="510.4951">ends with</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="42" x="477.185" y="520.2682">0..1 (+)</text><!--MD5=[fad1075d3a56c3a40b51ec3a35f08a0e]
+link -978027984 to 1188248618--><path codeLine="124" d="M318.25,545.88 C328.26,549.73 340,553.68 351,556 C411.02,568.68 483.93,569.77 518.88,569.44 " fill="none" id="-978027984-to-1188248618" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="524.15,569.38,515.1049,565.4831,519.1503,569.4371,515.1963,573.4826,524.15,569.38" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="377" y="552.4951">starts with</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="42" x="474.4466" y="584.6035">0..1 (+)</text><!--MD5=[6d145f5338e834bff2368950455a9142]
+link 625766257 to -843563681--><path codeLine="125" d="M331.03,374.75 C337.68,375.28 344.54,375.73 351,376 C400.73,378.14 413.4,380.19 463,376 C467.83,375.6 472.82,375.05 477.82,374.4 " fill="none" id="625766257-to--843563681" style="stroke:#999999;stroke-width:1.0;"/><polygon fill="#999999" points="482.82,373.73,473.3646,370.9742,477.8652,374.4011,474.4383,378.9018,482.82,373.73" style="stroke:#999999;stroke-width:1.0;"/><text fill="#999999" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="110" x="352" y="372.4951">has contextual role</text><text fill="#999999" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="20" x="454.9945" y="389.3908">1..*</text><!--MD5=[87440472e572f941f92692ebcbb77563]
+link 625766257 to -843567371--><path codeLine="126" d="M331.22,358.51 C373.48,344.61 438.79,322.8 463,313 C478.4,306.78 495.14,299.02 509.03,292.3 " fill="none" id="625766257-to--843567371" style="stroke:#999999;stroke-width:1.0;"/><polygon fill="#999999" points="513.62,290.06,503.7772,290.4064,509.1252,292.2501,507.2815,297.5981,513.62,290.06" style="stroke:#999999;stroke-width:1.0;"/><text fill="#999999" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="46" x="384" y="309.4951">has role</text><text fill="#999999" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="20" x="480.9425" y="310.7945">1..*</text><!--MD5=[d8f94b581e7604bbe5ee5b2d43c2bdc2]
+@startuml 
+left to right direction
+hide circle
+hide empty members
+skinparam ClassStereotypeFontColor blue
+skinparam nodesep 40
+skinparam ranksep 40
+skinparam ClassFontSize 13
+skinparam Shadowing false
+class "material" as 190495585  #line:black {
+}
+class "natural material" as 190501353  #line:black {
+}
+class "person" as 190523483  #line:black {
+}
+class "person (...)" as -746781186  #EEE;line:green {
+}
+class "organizational entity" as 190523511  #line:black {
+}
+class "information process" as 1188159182  #line:black {
+}
+class "end" as 1188247841  #line:black {
+}
+class "start" as 1188248618  #line:black {
+}
+class "specification" as 1482881895  #line:black {
+}
+class "proposition" as 1482882013  #line:black {
+}
+class "plan specification" as 1482907681  #line:black {
+}
+class "processing role" as -843567553  #line:black {
+}
+class "general role" as -843567375  #line:black {
+}
+class "agent role" as -843567371  #line:black {
+}
+class "contextual role" as -843566502  #line:black {
+}
+class "software agent role" as -843563681  #line:black {
+}
+class "general agent role" as -843563679  #line:black {
+}
+class "entity" as -978028019  #line:black {
+}
+class "continuant" as -978028018  #line:black {
+}
+class "occurrent" as -978028017  #line:black {
+}
+class "independent continuant" as -978028016  #line:black {
+}
+class "process" as -978027984  #line:black {
+}
+class "realizable entity" as -978027982  #line:black {
+}
+class "specifically dependent continuant" as -978027958  #line:black {
+}
+class "role" as -978027955  #line:black {
+}
+class "object" as -978027927  #line:black {
+}
+class "generically dependent continuant" as -978027926  #line:black {
+}
+class "process boundary" as -978027922  #line:black {
+}
+class "material entity" as -978027896  #line:black {
+}
+class "software" as 310781911  #line:black {
+}
+class "software (...)" as 625766257  #EEE;line:green {
+}
+class "information content entity" as 310781973  #line:black {
+}
+class "human" as 608723588  #line:black {
+}
+class "organism" as 205916218  #line:black {
+}
+class "Thing" as 2135914818  #line:black {
+}
+"190495585" - -|> "-978027896" #blue
+"190501353" - -|> "190495585" #blue
+"190523483" - -|> "190523511" #blue
+"190523483" - -|> "-978027927" #blue
+"190523483" - -|> "608723588" #blue
+"-746781186" - -|> "190523483" #blue
+"190523511" - -|> "-978027896" #blue
+"1188159182" - -|> "-978027984" #blue
+"1188247841" - -|> "-978027922" #blue
+"1188248618" - -|> "-978027922" #blue
+"1482881895" - -|> "1482882013" #blue
+"1482882013" - -|> "310781973" #blue
+"1482907681" - -|> "1482881895" #blue
+"-843567553" - -|> "-843566502" #blue
+"-843567375" - -|> "-978028018" #blue
+"-843567371" - -|> "-843563679" #blue
+"-843567371" - -|> "-978027955" #blue
+"-843566502" - -|> "-843567375" #blue
+"-843566502" - -|> "310781973" #blue
+"-843563681" - -|> "-843567553" #blue
+"-843563681" - -|> "-843563679" #blue
+"-843563679" - -|> "-843567375" #blue
+"-978028019" - -|> "2135914818" #blue
+"-978028018" - -|> "-978028019" #blue
+"-978028017" - -|> "-978028019" #blue
+"-978028016" - -|> "-978028018" #blue
+"-978027984" - -|> "-978028017" #blue
+"-978027982" - -|> "-978027958" #blue
+"-978027958" - -|> "-978028018" #blue
+"-978027955" - -|> "-843567375" #blue
+"-978027955" - -|> "-978027982" #blue
+"-978027927" - -|> "-978027896" #blue
+"-978027926" - -|> "-978028018" #blue
+"-978027922" - -|> "-978028017" #blue
+"-978027896" - -|> "-978028016" #blue
+"310781911" - -|> "1482907681" #blue
+"625766257" - -|> "310781911" #blue
+"310781973" - -|> "-978027926" #blue
+"608723588" - -|> "205916218" #blue
+"205916218" - -|> "190501353" #blue
+"-746781186" - -> "1..*" "-843563681" #text:999;line:999 : has contextual role
+"-746781186" - -> "1..*" "-843567371" #text:999;line:999 : has role
+"1188159182" - -> "1 (+)" "-746781186" #line:green;text:green;line.bold : has participant
+"1188159182" - -> "1 (+)" "625766257" #line:green;text:green;line.bold : has participant
+"-978027984" - -> "0..1 (+)" "1188247841" #black : ends with
+"-978027984" - -> "0..1 (+)" "1188248618" #black : starts with
+"625766257" - -> "1..*" "-843563681" #text:999;line:999 : has contextual role
+"625766257" - -> "1..*" "-843567371" #text:999;line:999 : has role
+@enduml
+
+PlantUML version 1.2020.26(Mon Dec 21 18:45:07 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

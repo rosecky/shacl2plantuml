@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="212px" preserveAspectRatio="none" style="width:830px;height:212px;" version="1.1" viewBox="0 0 830 212" width="830px" zoomAndPan="magnify"><defs/><g><!--MD5=[c48f00d1aef1556eaa59bc40e9ae8c06]
+class -1838746202--><rect codeLine="9" fill="#EEEEEE" height="41.4453" id="-1838746202" style="stroke:#008000;stroke-width:1.5;" width="212" x="253" y="34"/><text fill="#0000FF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="210" x="254" y="51.457">«organizational entity, object, human»</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="63" x="327.5" y="67.5889">person (...)</text><!--MD5=[190e492a57859a9c10ad94ef9e0726d0]
+class 1188159182--><rect codeLine="11" fill="#FEFECE" height="41.4453" id="1188159182" style="stroke:#000000;stroke-width:1.5;" width="119" x="7" y="75"/><text fill="#0000FF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="38" y="92.457">«process»</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="113" x="10" y="108.5889">information process</text><!--MD5=[4259cd000ef84b3e0c69b81c382281b6]
+class -843567371--><rect codeLine="13" fill="#FEFECE" height="41.4453" id="-843567371" style="stroke:#000000;stroke-width:1.5;" width="143" x="648.5" y="7"/><text fill="#0000FF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="141" x="649.5" y="24.457">«general agent role, role»</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="57" x="691.5" y="40.5889">agent role</text><!--MD5=[22000c05b224254186c3627cab1d5bbe]
+class -843563681--><rect codeLine="15" fill="#FEFECE" height="41.4453" id="-843563681" style="stroke:#000000;stroke-width:1.5;" width="206" x="617" y="115"/><text fill="#0000FF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="204" x="618" y="132.457">«processing role, general agent role»</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="109" x="665.5" y="148.5889">software agent role</text><!--MD5=[e5c7af02c284d6537dcd0a914679b1dd]
+class -561140590--><rect codeLine="17" fill="#EEEEEE" height="41.4453" id="-561140590" style="stroke:#008000;stroke-width:1.5;" width="111" x="303.5" y="115"/><text fill="#0000FF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="109" x="304.5" y="132.457">«plan specification»</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="72" x="323" y="148.5889">software (...)</text><!--MD5=[54c601e6f8347788262f6f66021fa35b]
+link -1838746202 to -843567371--><path codeLine="19" d="M465.03,46.05 C471.79,45.52 478.49,45 485,44.5 C537.79,40.47 597.31,36.15 643.1,32.88 " fill="none" id="-1838746202-to--843567371" style="stroke:#999999;stroke-width:1.0;"/><polygon fill="#999999" points="648.34,32.5,639.0779,29.1514,643.3527,32.8562,639.6479,37.1311,648.34,32.5" style="stroke:#999999;stroke-width:1.0;"/><text fill="#999999" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="46" x="518" y="32.9951">has role</text><text fill="#999999" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="20" x="620.5568" y="47.2297">1..*</text><!--MD5=[c40e5a9fa488e3dbf9343dafca505b38]
+link -1838746202 to -843563681--><path codeLine="20" d="M452.32,75.02 C496.17,84.8 549.3,96.7 597,107.5 C606.02,109.55 615.42,111.69 624.82,113.83 " fill="none" id="-1838746202-to--843563681" style="stroke:#999999;stroke-width:1.0;"/><polygon fill="#999999" points="629.73,114.96,621.8321,109.0759,624.8528,113.8587,620.07,116.8794,629.73,114.96" style="stroke:#999999;stroke-width:1.0;"/><text fill="#999999" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="110" x="486" y="79.9951">has contextual role</text><text fill="#999999" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="20" x="589.0493" y="106.5591">1..*</text><!--MD5=[57c68bf1c468e6aaf7802cb6ba07b184]
+link 1188159182 to -1838746202--><path codeLine="21" d="M126.29,87.21 C161.18,82.28 206.53,75.88 247.85,70.05 " fill="none" id="1188159182-to--1838746202" style="stroke:#008000;stroke-width:2.0;"/><polygon fill="#008000" points="252.87,69.34,243.398,66.6415,247.9194,70.0411,244.5198,74.5625,252.87,69.34" style="stroke:#008000;stroke-width:2.0;"/><text fill="#008000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="85" x="147" y="69.9951">has participant</text><text fill="#008000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="27" x="217.8324" y="84.3665">1 (+)</text><!--MD5=[d5cedf22e3fe67c505203eafd90005d9]
+link 1188159182 to -561140590--><path codeLine="22" d="M110.24,116.07 C121.61,120.66 134.06,124.93 146,127.5 C196.51,138.4 255.33,139.75 298.18,138.75 " fill="none" id="1188159182-to--561140590" style="stroke:#008000;stroke-width:2.0;"/><polygon fill="#008000" points="303.33,138.62,294.2302,134.8527,298.3317,138.7485,294.4358,142.85,303.33,138.62" style="stroke:#008000;stroke-width:2.0;"/><text fill="#008000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="85" x="147" y="123.9951">has participant</text><text fill="#008000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="27" x="268.3322" y="153.3954">1 (+)</text><!--MD5=[ad19da5ab3ed6da477d7a17e401a80ea]
+link -561140590 to -843567371--><path codeLine="23" d="M414.78,150.56 C465.9,161.28 542.29,168.47 597,134.5 C613.89,124.02 603.8,109.36 617,94.5 C632.57,76.99 653.73,62.1 672.74,50.84 " fill="none" id="-561140590-to--843567371" style="stroke:#999999;stroke-width:1.0;"/><polygon fill="#999999" points="677.53,48.05,667.7412,49.1357,673.2127,50.572,671.7764,56.0435,677.53,48.05" style="stroke:#999999;stroke-width:1.0;"/><text fill="#999999" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="46" x="518" y="130.9951">has role</text><text fill="#999999" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="20" x="642.1169" y="69.9179">1..*</text><!--MD5=[acaeaa37faba92bb733bca7782ea5df4]
+link -561140590 to -843563681--><path codeLine="24" d="M393.02,156.05 C417.42,169.96 451.98,187.1 485,194.5 C533.57,205.39 548.48,205.62 597,194.5 C627.31,187.56 658.85,172.06 682.27,158.68 " fill="none" id="-561140590-to--843563681" style="stroke:#999999;stroke-width:1.0;"/><polygon fill="#999999" points="686.84,156.04,677.0459,157.0774,682.5103,158.5407,681.047,164.005,686.84,156.04" style="stroke:#999999;stroke-width:1.0;"/><text fill="#999999" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="110" x="486" y="190.9951">has contextual role</text><text fill="#999999" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="20" x="654.1618" y="177.905">1..*</text><!--MD5=[932ef29891c9628e92774342e4cc3651]
+@startuml 
+left to right direction
+hide circle
+hide empty members
+skinparam ClassStereotypeFontColor blue
+skinparam nodesep 40
+skinparam ranksep 40
+skinparam ClassFontSize 13
+skinparam Shadowing false
+class "person (...)" as -1838746202 <<organizational entity, object, human>> #EEE;line:green {
+}
+class "information process" as 1188159182 <<process>> #line:black {
+}
+class "agent role" as -843567371 <<general agent role, role>> #line:black {
+}
+class "software agent role" as -843563681 <<processing role, general agent role>> #line:black {
+}
+class "software (...)" as -561140590 <<plan specification>> #EEE;line:green {
+}
+"-1838746202" - -> "1..*" "-843567371" #text:999;line:999 : has role
+"-1838746202" - -> "1..*" "-843563681" #text:999;line:999 : has contextual role
+"1188159182" - -> "1 (+)" "-1838746202" #line:green;text:green;line.bold : has participant
+"1188159182" - -> "1 (+)" "-561140590" #line:green;text:green;line.bold : has participant
+"-561140590" - -> "1..*" "-843567371" #text:999;line:999 : has role
+"-561140590" - -> "1..*" "-843563681" #text:999;line:999 : has contextual role
+@enduml
+
+PlantUML version 1.2020.26(Mon Dec 21 18:45:07 CET 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
