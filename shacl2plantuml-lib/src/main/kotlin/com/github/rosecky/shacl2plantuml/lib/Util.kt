@@ -111,7 +111,7 @@ class Util {
                 relatedShapeWithObject.listPropertyResourceValues(SHACLM.targetClass) . map { relatedShapeWithObject.getReferencedClassUri(it.uri) } +
                         relatedShapeWithObject.listPropertyResourceValues(SHACLM.class_) . map { relatedShapeWithObject.getReferencedClassUri(it.uri) } +
                         relatedShapeWithObject.listPropertyResourceValues(SHACLM.datatype) . map { it.uri } +
-                        relatedShapeWithObject.listPropertyResourceValues(SHACLM.hasValue) . map { it.toString() }
+                        relatedShapeWithObject.listProperties(SHACLM.hasValue).toList() . map { it.`object`.toString() }
             }
         }
 

@@ -16,7 +16,7 @@ You can use a [public PlantUML server](http://www.plantuml.com/plantuml) or set 
 
 **Run** e.g. 
 ```shell
-java -jar shacl2plantuml-cmd/target/shacl2plantuml-cmd-1.0.0-SNAPSHOT-exec.jar 
+java -jar shacl2plantuml-cmd/target/shacl2plantuml-cmd-1.0.0-SNAPSHOT.jar 
      -s path/to/shapes/dir/or/file.ttl
      -v path/to/vocab/dir/or/file.ttl
      -d path/to/diagram_def.yaml 
