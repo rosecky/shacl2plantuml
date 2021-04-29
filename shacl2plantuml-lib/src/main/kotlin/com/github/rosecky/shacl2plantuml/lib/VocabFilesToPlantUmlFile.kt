@@ -2,7 +2,7 @@ package com.github.rosecky.shacl2plantuml.lib
 
 import com.github.rosecky.shacl2plantuml.lib.composer.PlantUmlComposer
 import com.github.rosecky.shacl2plantuml.lib.definition.DiagramDefinitionComposer
-import com.github.rosecky.shacl2plantuml.lib.model.DiagramModelComposer
+import com.github.rosecky.shacl2plantuml.lib.model.DiagramComposer
 import org.apache.jena.ontology.OntModelSpec
 import org.apache.jena.rdf.model.ModelFactory
 import org.apache.jena.util.FileUtils
@@ -14,7 +14,7 @@ import java.io.FileInputStream
 @Component
 class VocabFilesToPlantUmlFile(
     private val diagramDefLoader: DiagramDefinitionComposer,
-    private val diagramModelComposer: DiagramModelComposer,
+    private val diagramModelComposer: DiagramComposer,
     private val plantUmlComposer: PlantUmlComposer
 ) {
     private val log = LoggerFactory.getLogger(javaClass)

@@ -1,6 +1,6 @@
 package com.github.rosecky.shacl2plantuml.lib
 
-import com.github.rosecky.shacl2plantuml.lib.model.DiagramShapeSpecificClassModel
+import com.github.rosecky.shacl2plantuml.lib.model.DiagramShapeSpecificNode
 import org.apache.jena.enhanced.EnhNode
 import org.apache.jena.rdf.model.*
 import org.apache.jena.shacl.vocabulary.SHACLM
@@ -25,6 +25,10 @@ class Util {
 
         private fun RDFList.getListRoot(): RDFList {
             return model.listResourcesWithProperty(RDF.rest, this).toList().firstOrNull()?.asRdfList()?.getListRoot() ?: this
+        }
+
+        fun Resource.isRdfList(): Boolean {
+            return this is EnhNode && this.canAs(RDFList::class.java)
         }
 
         fun Resource.asRdfList(): RDFList? {
@@ -96,7 +100,7 @@ class Util {
             return if (isPureClassWithoutUseCaseSpecificConstraints(this))
                 origClassUri
             else
-                DiagramShapeSpecificClassModel.composeUri(this, origClassUri)
+                DiagramShapeSpecificNode.composeUri(this, origClassUri)
         }
 
         fun Resource.hasObject(): Boolean =

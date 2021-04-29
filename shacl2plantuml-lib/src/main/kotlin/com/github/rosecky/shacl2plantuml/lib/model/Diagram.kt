@@ -3,20 +3,19 @@ package com.github.rosecky.shacl2plantuml.lib.model
 import com.github.rosecky.shacl2plantuml.lib.Util.Companion.getLabel
 import org.apache.jena.ontology.OntClass
 import org.apache.jena.ontology.OntModel
-import org.apache.jena.ontology.OntProperty
 
 /**
  * Model of a diagram
  */
-class DiagramModel(
-        val model: OntModel,
-        val classes: Collection<DiagramClassModel>,
-        private val allShapeSpecificClassModels: Map<String, DiagramShapeSpecificClassModel>? = null
+class Diagram(
+    val model: OntModel,
+    val classes: Collection<DiagramNode>,
+    private val allShapeSpecificClassModels: Map<String, DiagramShapeSpecificNode>? = null
 ) {
     fun isClassIncluded(uri: String?): Boolean =
         uri != null && classes.any { it.getUri() == uri }
 
-    fun getClass(uri: String): DiagramClassModel =
+    fun getClass(uri: String): DiagramNode =
         classes.first { it.getUri() == uri }
 
     fun getClassLabel(uri: String): String =

@@ -4,6 +4,7 @@ import com.github.rosecky.shacl2plantuml.lib.Util.Companion.asJavaList
 import com.github.rosecky.shacl2plantuml.lib.Util.Companion.getLabel
 import com.github.rosecky.shacl2plantuml.lib.Util.Companion.getObjectsFromRelatedShapes
 import com.github.rosecky.shacl2plantuml.lib.Util.Companion.getRelatedShapes
+import com.github.rosecky.shacl2plantuml.lib.Util.Companion.isRdfList
 import com.github.rosecky.shacl2plantuml.lib.definition.DiagramClassDefinition
 import org.apache.jena.enhanced.EnhNode
 import org.apache.jena.ontology.OntModel
@@ -12,7 +13,7 @@ import org.apache.jena.rdf.model.Resource
 import org.apache.jena.shacl.vocabulary.SHACLM
 import java.util.*
 
-class DiagramPropertyModel(
+class DiagramProperty(
         val shape: Resource,
         val vocab: OntModel
 ) {
@@ -24,6 +25,9 @@ class DiagramPropertyModel(
 
     private fun labelPath(path: Resource): String {
         return when {
+            path.isRdfList() -> {
+                path.asJavaList()!!.joinToString(" / ") { labelPath(it.asResource()) }
+            }
             path.hasProperty(SHACLM.inversePath) -> {
                 "^ ${labelPath(path.getPropertyResourceValue(SHACLM.inversePath))}"
             }
@@ -87,10 +91,15 @@ class DiagramPropertyModel(
 //        return shape.getRelatedShapes().any { it.hasProperty(SHACLM.or) || it.hasProperty(SHACLM.xone) }
 //    }
 
-    fun getObjects(): SortedSet<String> = shape.getObjectsFromRelatedShapes().toSortedSet()
+    fun getObjects(): SortedSet<String> {
+        val objects = shape.getObjectsFromRelatedShapes().toSortedSet()
+        return if (objects.isEmpty())
+            sortedSetOf(DiagramShapeSpecificNode.composeUri(shape))
+        else objects
+    }
 
     override fun equals(other: Any?): Boolean {
-        return if (other is DiagramPropertyModel) shape == other.shape else false
+        return if (other is DiagramProperty) shape == other.shape else false
     }
 
     override fun hashCode(): Int {

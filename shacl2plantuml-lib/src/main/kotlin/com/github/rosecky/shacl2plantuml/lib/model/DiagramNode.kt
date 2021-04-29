@@ -2,7 +2,6 @@ package com.github.rosecky.shacl2plantuml.lib.model
 
 import com.github.rosecky.shacl2plantuml.lib.Util.Companion.getObjectsFromRelatedShapes
 import com.github.rosecky.shacl2plantuml.lib.Util.Companion.getRelatedChildShapes
-import com.github.rosecky.shacl2plantuml.lib.Util.Companion.getRelatedParentShapes
 import com.github.rosecky.shacl2plantuml.lib.Util.Companion.getRelatedShapes
 import com.github.rosecky.shacl2plantuml.lib.Util.Companion.isPropertyShape
 import com.github.rosecky.shacl2plantuml.lib.Util.Companion.isShapeSpecific
@@ -12,17 +11,16 @@ import org.apache.jena.ontology.OntClass
 import org.apache.jena.ontology.OntModel
 import org.apache.jena.rdf.model.Resource
 import org.apache.jena.shacl.vocabulary.SHACLM
-import org.apache.jena.vocabulary.RDF
 import org.apache.jena.vocabulary.SKOS
 
 /**
  * Model of a class included in the diagram
  */
-open class DiagramClassModel(
-        val classModel: OntClass,
-        val shapesModel: OntModel,
-        var definition: DiagramClassDefinition,
-        shapes: Collection<Resource> = setOf()
+open class DiagramNode(
+    val classModel: OntClass,
+    val shapesModel: OntModel,
+    var definition: DiagramClassDefinition,
+    shapes: Collection<Resource> = setOf()
 ) {
     val shapes: MutableCollection<Resource>
 
@@ -33,7 +31,7 @@ open class DiagramClassModel(
 
     fun addShape(shape: Resource) { shapes.add(shape) }
 
-    protected lateinit var diagram: DiagramModel
+    protected lateinit var diagram: Diagram
 
     /**
      * @return uri for this class
@@ -75,27 +73,27 @@ open class DiagramClassModel(
      * @return collection of properties that are included (are to be displayed somehow)
      * Works even before init() is called
      */
-    fun getIncludedProperties(): Iterable<DiagramPropertyModel> {
+    fun getIncludedProperties(): Iterable<DiagramProperty> {
         val related = shapes.flatMap { it.getRelatedShapes() }
         val relatedChildren = shapes.flatMap { it.getRelatedChildShapes() }
         val relatedProperties =
             relatedChildren.filter { it.isPropertyShape() } +
             related.flatMap { it.listPropertyResourceValues(SHACLM.property) }
-        return relatedProperties.map { DiagramPropertyModel(it, classModel.ontModel) }.toSet().sortedBy { it.hashCode() }
+        return relatedProperties.map { DiagramProperty(it, classModel.ontModel) }.toSet().sortedBy { it.hashCode() }
     }
 
     /**
      * @return collection of properties that will be displayed as links to other classes if those are included
      * Works even before init() is called
      */
-    fun getIncludedOutLinks(): Iterable<DiagramPropertyModel> = getIncludedProperties()
+    fun getIncludedOutLinks(): Iterable<DiagramProperty> = getIncludedProperties()
             .filter { p -> p.getObjects().any() && p.shouldInclude(definition) }
 
     fun getIncludedInLinkUris(): Iterable<String> {
         val related = shapes.flatMap { it.getRelatedShapes() }
         return related
                 .flatMap { shape ->
-                    val p = DiagramPropertyModel(shape, classModel.ontModel)
+                    val p = DiagramProperty(shape, classModel.ontModel)
                     shapesModel.listResourcesWithProperty(SHACLM.property, shape).toList()
                             .flatMap {
                                 if (p.shouldInclude(definition)) {
@@ -108,7 +106,7 @@ open class DiagramClassModel(
     /**
      * Initiates the class model - this is crucial for the model to know what other classes are included in the diagram
      */
-    fun init(diagram: DiagramModel) {
+    fun init(diagram: Diagram) {
         this.diagram = diagram
     }
 
@@ -116,14 +114,14 @@ open class DiagramClassModel(
      * @return collection of properties that will be displayed as inner properties / class attributes
      * !!Works ONLY AFTER init() is called!!
      */
-    val innerProperties: Iterable<DiagramPropertyModel>
+    val innerProperties: Iterable<DiagramProperty>
         get() = if (definition.hideInnerProperties == true) listOf() else getIncludedProperties()-propertyLinks
 
     /**
      * @return collection of properties that will be displayed as links to other classes (it's guaranteed that they are included)
      * !!Works ONLY AFTER init() is called!!
      */
-    val propertyLinks: Iterable<DiagramPropertyModel>
+    val propertyLinks: Iterable<DiagramProperty>
         get() = if (definition.hideOutLinks == true) listOf() else getIncludedOutLinks().filter { p -> p.getObjects().all { o -> diagram.isClassIncluded(o) } }
 
     /**

@@ -1,10 +1,9 @@
 package com.github.rosecky.shacl2plantuml.lib.composer
 
-import com.github.rosecky.shacl2plantuml.lib.PlantUml
-import com.github.rosecky.shacl2plantuml.lib.model.DiagramClassModel
-import com.github.rosecky.shacl2plantuml.lib.model.DiagramModel
-import com.github.rosecky.shacl2plantuml.lib.model.DiagramPropertyModel
-import com.github.rosecky.shacl2plantuml.lib.model.DiagramShapeSpecificClassModel
+import com.github.rosecky.shacl2plantuml.lib.model.DiagramNode
+import com.github.rosecky.shacl2plantuml.lib.model.Diagram
+import com.github.rosecky.shacl2plantuml.lib.model.DiagramProperty
+import com.github.rosecky.shacl2plantuml.lib.model.DiagramShapeSpecificNode
 import com.github.rosecky.shacl2plantuml.lib.renderer.DiagramRenderer
 import org.apache.jena.ontology.OntClass
 import org.springframework.stereotype.Component
@@ -19,7 +18,7 @@ class PlantUmlComposer(
      * Composes a PlantUML string from given DiagramModel
      */
     fun compose(
-        diagramModel: DiagramModel
+        diagramModel: Diagram
     ): com.github.rosecky.shacl2plantuml.lib.PlantUml {
         val stringBuilder = StringBuilder("@startuml \n")//${diagramModel.definition.name} \n")
         stringBuilder.appendLine(diagramConfig.style.global)
@@ -29,14 +28,14 @@ class PlantUmlComposer(
         return com.github.rosecky.shacl2plantuml.lib.PlantUml(renderer, stringBuilder.toString())
     }
 
-    private fun composeClassesContent(diagramModel: DiagramModel): Iterable<String> {
+    private fun composeClassesContent(diagramModel: Diagram): Iterable<String> {
         return diagramModel.classes.flatMap {
             composeClassContent(diagramModel, it)
         }
     }
 
-    private fun composeClassContent(diagramModel: DiagramModel, c: DiagramClassModel): Iterable<String> {
-        val classStyle = if (c is DiagramShapeSpecificClassModel) diagramStyle.shapeSpecificClass else diagramStyle.properClass
+    private fun composeClassContent(diagramModel: Diagram, c: DiagramNode): Iterable<String> {
+        val classStyle = if (c is DiagramShapeSpecificNode) diagramStyle.shapeSpecificClass else diagramStyle.properClass
         val stereotypes = composeClassStereotypes(diagramModel, c)
 
         val ret = mutableListOf("class \"${c.getLabel()}\" as ${c.getUri().hashCode()} $stereotypes $classStyle {")
@@ -49,9 +48,9 @@ class PlantUmlComposer(
     }
 
     private fun composeInnerProperty(
-            diagramModel: DiagramModel,
-            c: DiagramClassModel,
-            p: DiagramPropertyModel
+        diagramModel: Diagram,
+        c: DiagramNode,
+        p: DiagramProperty
     ): String {
         val cardinality = getCardinalityString(p)
         val icon = getIcon(p)
@@ -63,7 +62,7 @@ class PlantUmlComposer(
             .replaceFirst("{cardinality}", cardinality)
     }
 
-    private fun getIcon(p: DiagramPropertyModel): String {
+    private fun getIcon(p: DiagramProperty): String {
         return if (p.isForbidden())
             "-{method}"
         else {
@@ -73,7 +72,7 @@ class PlantUmlComposer(
         }
     }
 
-    private fun getCardinalityString(p: DiagramPropertyModel): String {
+    private fun getCardinalityString(p: DiagramProperty): String {
         return if (p.isForbidden()) "0"
         else if (p.isMultiValued()) {
             if (p.isRequired()) "1..*" else "*"
@@ -84,14 +83,14 @@ class PlantUmlComposer(
         else ""
     }
 
-    private fun getPropertyLabel(p: DiagramPropertyModel): String {
+    private fun getPropertyLabel(p: DiagramProperty): String {
         return p.getLabel()
 //        return if (p.isOr())
 //            "|or| ${p.getLabel()}"
 //        else p.getLabel()
     }
 
-    private fun composeClassStereotypes(diagramModel: DiagramModel, c: DiagramClassModel): String {
+    private fun composeClassStereotypes(diagramModel: Diagram, c: DiagramNode): String {
         return if (c.superClassStereotypes.any()) {
             c.superClassStereotypes.joinToString(", ", "<<", ">>" ) {
                 diagramModel.getClassLabel(it)
@@ -99,7 +98,7 @@ class PlantUmlComposer(
         } else ""
     }
 
-    fun composeLinks(diagramModel: DiagramModel): Iterable<String> {
+    fun composeLinks(diagramModel: Diagram): Iterable<String> {
         val layout = GraphLayout(diagramModel, diagramConfig.layout).also { it.computeLayout() }
         return diagramModel.classes.flatMap {
             composeSuperClassLinks(diagramModel,it, layout)
@@ -109,8 +108,8 @@ class PlantUmlComposer(
     }
 
     private fun composeSuperClassLinks(
-        diagramModel: DiagramModel,
-        c: DiagramClassModel,
+        diagramModel: Diagram,
+        c: DiagramNode,
         layout: GraphLayout
     ): Iterable<String> {
         return c.superClassLinks.map {
@@ -121,8 +120,8 @@ class PlantUmlComposer(
     }
 
     private fun composeSuperClassLink(
-        diagramModel: DiagramModel,
-        c: DiagramClassModel,
+        diagramModel: Diagram,
+        c: DiagramNode,
         superClass: OntClass,
         layout: GraphLayout,
         relStyle: String
@@ -132,8 +131,8 @@ class PlantUmlComposer(
     }
 
     private fun composePropertyLinks(
-        diagramModel: DiagramModel,
-        c: DiagramClassModel,
+        diagramModel: Diagram,
+        c: DiagramNode,
         layout: GraphLayout
     ): Iterable<String> {
         return c.propertyLinks.flatMap { p ->
@@ -144,17 +143,17 @@ class PlantUmlComposer(
     }
 
     private fun composePropertyLink(
-            diagramModel: DiagramModel,
-            c: DiagramClassModel,
-            p: DiagramPropertyModel,
-            range: String,
-            layout: GraphLayout
+        diagramModel: Diagram,
+        c: DiagramNode,
+        p: DiagramProperty,
+        range: String,
+        layout: GraphLayout
     ): String {
         val rangeC = diagramModel.getClass(range)
         val relStyle = when {
             (p.isForbidden()) -> diagramStyle.forbiddenLink
-            (rangeC is DiagramShapeSpecificClassModel) -> diagramStyle.shapeSpecificClassInLink
-            (c is DiagramShapeSpecificClassModel) -> diagramStyle.shapeSpecificClassOutLink
+            (rangeC is DiagramShapeSpecificNode) -> diagramStyle.shapeSpecificClassInLink
+            (c is DiagramShapeSpecificNode) -> diagramStyle.shapeSpecificClassOutLink
             else -> diagramStyle.properClassOutLink
         }
         val direction = layout.getDirection(c.getUri(), range)

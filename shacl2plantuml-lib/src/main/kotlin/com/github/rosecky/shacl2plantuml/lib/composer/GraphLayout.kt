@@ -1,6 +1,6 @@
 package com.github.rosecky.shacl2plantuml.lib.composer
 
-import com.github.rosecky.shacl2plantuml.lib.model.DiagramModel
+import com.github.rosecky.shacl2plantuml.lib.model.Diagram
 import org.jgrapht.alg.connectivity.ConnectivityInspector
 import org.jgrapht.alg.drawing.FRLayoutAlgorithm2D
 import org.jgrapht.alg.drawing.model.Box2D
@@ -25,7 +25,7 @@ import kotlin.math.sqrt
  * val link = "$fromUri -${layout.getDirection(fromUri, toUri)}-> toUri"
  */
 class GraphLayout(
-    private val model: DiagramModel,
+    private val model: Diagram,
     private val config: LayoutConfig
 ) {
     private val connectedComponentLayouts: Iterable<ConnectedComponentLayout>
@@ -69,7 +69,7 @@ class GraphLayout(
 
 private class ConnectedComponentLayout(
     val classes: Iterable<String>,
-    private val model: DiagramModel,
+    private val model: Diagram,
     private val config: LayoutConfig
 ) {
 
